@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
 html{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
     
 }
 *{
@@ -93,7 +94,7 @@ a{
 }
 .buton-verMais:hover{
     background-color: black;
-    color: aqua;
+    color: whitesmoke;
     cursor: pointer;
     box-shadow: 6px 4px 6px rgb(241, 241, 241);;
 
