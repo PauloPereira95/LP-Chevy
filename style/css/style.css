@@ -116,6 +116,7 @@ section div h2 {
 .title{
     text-align:center;
     margin-top: 30px;
+    margin-bottom: 32px;
 }
 .sec-specs{
     height: 100vh;
@@ -132,4 +133,28 @@ section div h2 {
 }
 img{
     border-radius: 10px;
+}
+.info{
+    max-width:200px
+}
+.container-desc{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:250px;
+  margin-right: 150px;  
+}
+.text{
+    margin-top: 20px;
+    text-align:justify;
+    width: 350px;
+    height: 270px;
+}
+ th,td{
+    padding: 5px;
+}
+.td-cor{
+    color: #101b2b;
+    text-decoration: underline;
+    font-weight: 700;
 }
