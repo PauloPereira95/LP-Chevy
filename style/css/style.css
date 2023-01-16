@@ -34,6 +34,7 @@ a{
     top:0;
     left:0;
     right: 0;
+}.menu,.footer{
     width: 100%;
     background-color: #1F2937;
     padding-left: 30px;
@@ -138,6 +139,7 @@ img{
     max-width:200px
 }
 .container-desc{
+   height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -157,4 +159,57 @@ img{
     color: #101b2b;
     text-decoration: underline;
     font-weight: 700;
+}
+.nota-importante{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    text-align: justify;
+}
+.nota-importante,.contactos{
+    width: 100%;
+    height: 400px;
+}
+.nota-importante p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.nota-importante strong{
+    padding-left: 1080px;
+}
+.contactos{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}   
+.text-contactos{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 70%;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 50px;
+}
+.text-contactos button{
+    background-color: #3882f6;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 0px 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+}
+.footer a{
+    color: #3882f6;
 }
