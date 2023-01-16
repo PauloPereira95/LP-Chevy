@@ -201,6 +201,7 @@ img{
     padding: 0px 30px;
     font-weight: 500;
     font-size: 20px;
+    cursor: pointer;
 }
 .footer{
     text-align: center;
